@@ -151,11 +151,11 @@
 
 ### **🚀 立即升级**
 
-> **ChatGPT Plus自助升级地址：** https://nice.chatgpt-plus.top/
+> **ChatGPT Plus自助升级地址：** https://chongzhi.chatgpt-plus.top/
 
 ### **🛒 购买卡密**
 
-> **卡密获取地址：** https://717ka.com/p/9ezez0xoho8qe7u2w6q1roul
+> **卡密获取地址：** https://maynorai.jichiyun.sbs/buy/7
 >
 > （或直接点击"阅读原文"跳转）
 
