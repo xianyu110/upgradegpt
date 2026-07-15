@@ -151,7 +151,7 @@
 
 ### **🚀 立即升级**
 
-> **ChatGPT Plus自助升级地址：** https://chongzhi.chatgpt-plus.top/
+> **ChatGPT Plus自助升级地址：** https://chongzhi.trygpt.asia/
 
 ### **🛒 购买卡密**
 
