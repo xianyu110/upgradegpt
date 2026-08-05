@@ -366,8 +366,27 @@ body {
 }
 
 .feature-icon {
-    font-size: 2.5rem;
-    margin-bottom: 16px;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 16px;
+    border: 1px solid #e0e7ff;
+    border-radius: 16px;
+    background: #eef2ff;
+    color: #6366f1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-icon svg,
+.why-us-icon svg {
+    width: 27px;
+    height: 27px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .feature-card h3 {
@@ -418,6 +437,7 @@ body {
     height: 52px;
     background: linear-gradient(135deg, #ede9fe, #fce7f3);
     border-radius: 14px;
+    color: #7c3aed;
     display: flex;
     align-items: center;
     justify-content: center;
