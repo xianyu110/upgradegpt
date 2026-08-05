@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function setupEventListeners() {
         // Modal close
-        closeModal.addEventListener('click', hideModal);
+        if (closeModal) {
+            closeModal.addEventListener('click', hideModal);
+        }
 
         // Close modal when clicking outside
         window.addEventListener('click', function(event) {
