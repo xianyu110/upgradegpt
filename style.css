@@ -430,6 +430,11 @@ body {
     box-shadow: 0 12px 32px rgba(0,0,0,0.08);
 }
 
+.why-us-content {
+    flex: 1;
+    min-width: 0;
+}
+
 .why-us-icon {
     font-size: 2rem;
     flex-shrink: 0;
@@ -1140,6 +1145,7 @@ body {
 
 .pricing-grid.single {
     max-width: 440px;
+    grid-template-columns: 1fr;
 }
 
 .pricing-card {
