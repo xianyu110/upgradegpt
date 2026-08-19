@@ -155,7 +155,7 @@
 
 ### **🛒 购买卡密**
 
-> **卡密获取地址：** https://maynorai.jichiyun.sbs/buy/7
+> **卡密获取地址：** https://momoai.dadoudou117.com/buy/7
 >
 > （或直接点击"阅读原文"跳转）
 
