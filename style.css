@@ -724,44 +724,37 @@ body {
     margin: 0 auto;
 }
 
-.video-link {
+.video-frame {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    background: #1e1b4b;
+    box-shadow: 0 16px 36px rgba(30, 27, 75, 0.16);
+}
+
+.video-frame iframe {
     display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video-fallback {
+    margin: 12px 0 0;
+    color: #64748b;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.video-fallback a {
+    color: #4f46e5;
+    font-weight: 600;
     text-decoration: none;
 }
 
-.video-placeholder {
-    background: linear-gradient(135deg, #1e1b4b, #312e81);
-    border-radius: 20px;
-    aspect-ratio: 16/9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    transition: transform 0.2s;
-}
-
-.video-placeholder:hover {
-    transform: scale(1.01);
-}
-
-.video-play {
-    width: 72px;
-    height: 72px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    color: #fff;
-    backdrop-filter: blur(8px);
-    border: 2px solid rgba(255,255,255,0.3);
-}
-
-.video-placeholder p {
-    color: rgba(255,255,255,0.7);
-    font-size: 0.95rem;
+.video-fallback a:hover {
+    text-decoration: underline;
 }
 
 /* ========== FAQ Section ========== */
